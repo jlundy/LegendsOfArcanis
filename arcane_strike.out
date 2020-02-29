@@ -1,0 +1,15 @@
+Arcane Strike(BrittleBones)
+  Speed(Recovery/Strain): 6(4, 12)
+  CTN: 28
+  This is the description of the spell.  It is very
+  long and will need to be broken up across multiple
+  lines for easier reading
+
+
+Arcane Strike(Aspyxiate)
+  Speed(Recovery/Strain): 4(4, 7)
+  CTN: 18
+  This is my second spell in the yaml file.  It is
+  glorious
+
+
