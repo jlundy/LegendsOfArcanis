@@ -1,0 +1,11 @@
+BrittleBones:
+  Speed: 6 
+  Strain: 12
+  Description: "This is the description of the spell.  It is very long and will need to be broken up across multiple lines for easier reading"
+  CTN: 28
+
+Aspyxiate:
+  Speed: 4
+  Strain: 7
+  Description:  "This is my second spell in the yaml file.  It is glorious"
+  CTN:  18
