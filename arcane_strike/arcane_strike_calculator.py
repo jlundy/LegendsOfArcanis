@@ -33,10 +33,12 @@ with open(arguments.output, 'w') as outputFile:
     strain = spell[1]['Strain']
     description = spell[1]['Description']
     ctn = spell[1]['CTN']
+    defense = spell[1]['Defense']
 
     # Need to implement manevuer output file later
-    header_data = Template("$maneuver_name\n  Speed(Recovery/Strain): $maneuver_speed($recovery, $strain)\n  CTN: $ctn\n").safe_substitute\
-      (maneuver_name=maneuver_name, maneuver_speed=maneuver_speed, recovery=recovery, strain=strain, ctn=ctn)
+    header_data = Template("$maneuver_name\n  Speed(Recovery, Strain): $maneuver_speed($recovery, $strain)\n\
+  CTN: $ctn\n  Defense: $defense\n").safe_substitute(maneuver_name=maneuver_name, \
+      maneuver_speed=maneuver_speed, recovery=recovery, strain=strain, ctn=ctn, defense=defense)
     description_data = textwrap.wrap(description, 50, break_long_words=False)
     
     outputFile.write(header_data)
