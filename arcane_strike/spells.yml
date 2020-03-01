@@ -1,11 +1,62 @@
-BrittleBones:
-  Speed: 6 
-  Strain: 12
-  Description: "This is the description of the spell.  It is very long and will need to be broken up across multiple lines for easier reading"
-  CTN: 28
+Mind Lock:
+  Speed: 4 
+  Strain: 3 
+  Description: "The Target of this spell gains Strain 8 and Recovery 2, which is added to any Strain and Recovery the Target might have"
+  CTN: 22
+  Defense: "Discipline"
 
-Aspyxiate:
+Brittle Bones (2 targets):
+  Speed: 6 
+  Strain: 4 
+  Description:  "The next successful weapon attack on the Targets deals an additional d12 damage."
+  CTN: 25
+  Defense: "Fortitude"
+
+Brittle Bones (1 target):
   Speed: 4
+  Strain: 3
+  Description: "The next successful weapon attack on the Target deals an additional d12+2 damage."
+  CTN: 24
+  Defense: "Fortitude"
+
+Concussive Wave:
+  Speed: 4
+  Strain: 5
+  Description: "Any Target you succesfully affect loses d10 Stamina."
+  CTN:  24
+  Defense: "Avoidance"
+
+Enemy Of My Enemy (2 targets):
+  Speed: 8
   Strain: 7
-  Description:  "This is my second spell in the yaml file.  It is glorious"
-  CTN:  18
+  Description: "If you successfully affect your Targets, upon their next action they must attack the foe of your choice with extreme prejudice, up to and including casting through 4 point of strain.  Both targets (the targets of the illusion, and the oppenents you wish them to attack) must be clearly visibile within range."
+  CTN: 21 
+  Defense: "Discipline"
+
+Enemy Of My Enemy (1 target):
+  Speed: 5
+  Strain: 5
+  Description: "If you successfully affect your Target, upon his next action he must attack the foe of your choice with extreme prejudice, up to and including casting through 4 point of strain.  Both targets (the targets of the illusion, and the oppenents you wish them to attack) must be clearly visibile within range."
+  CTN: 24  
+  Defense: "Discipline"
+
+Kinetic Bolt (2 targets):
+  Speed:  5
+  Strain:  2
+  Description:  "This spell deals d8 damage to two Targets"
+  CTN:  25
+  Defense:  "Avoidance"
+
+Kinetic Bolt (1 targets):
+  Speed:  4 
+  Strain:  3
+  Description:  "This spell deals d10 damage to a single Target"
+  CTN:  25
+  Defense:  "Avoidance"
+
+Suffocate:
+  Speed:  4
+  Strain:  6
+  Description: "Targets successfully affected by this spell suffer d10 Stamina damage, are Stunned, and suffer Push 4.  This Elemental spell is considered an Air spell."
+  CTN:  26
+  Defense:  "Fortitude" 
